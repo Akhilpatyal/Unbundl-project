@@ -1,0 +1,178 @@
+/* Responsive CSS for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left img {
+        width: 80px;
+        height: 40px;
+    }
+
+    .mid ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .mid li {
+        margin: 5px 0;
+    }
+
+    .right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container1-left, .container1-right {
+        width: 100%;
+    }
+
+    .dentaloption .items {
+        flex-direction: column;
+        flex-wrap: wrapDS;
+        gap: 5px;
+    }
+
+    .info-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .info-box img {
+        width: 100px;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .info-box h3 {
+        font-size: 18px;
+    }
+
+    .small-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .small-box img {
+        width: 100px;
+    }
+
+    .slider .slide {
+        width: 100%;
+        text-align: center;
+    }
+
+    .scroll-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-container {
+        text-align: center;
+    }
+
+    .corporate-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .company-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Responsive CSS for Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    nav {
+        flex-direction: row;
+    }
+
+    .mid ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header-content {
+        text-align: center;
+    }
+
+    .header {
+        padding: 50px 20px;
+    }
+
+    .header-img img {
+        width: 70%;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1-left, .container1-right {
+        width: 80%;
+    }
+
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box img {
+        width: 120px;
+    }
+
+    .small-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider .slide {
+        width: 90%;
+    }
+
+    .scroll-content {
+        flex-direction: column;
+    }
+
+    .carousel-container {
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
